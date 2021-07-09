@@ -59,6 +59,29 @@ body {
     width: 100%;
 }
 
+#game-card img {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+    filter: opacity(70%);
+}
+
+#game-card-active img {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 0 0 5px white, 0 0 0 10px #4799dc;
+}
+
+#game-card img:hover {
+    transform: translateY(-15px);
+    filter: none;
+    cursor: pointer;
+}
+
+
+
+
 /* Debug */
 
 .debug .logo-sony {
@@ -84,7 +107,7 @@ body {
 }
 
 .debug #game-card {
-    height: 100px;
+    height: 200px;
     background-color: lightsalmon;
     border: 1px solid black;
 }

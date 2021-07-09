@@ -8,10 +8,30 @@ body {
     font-family: Arial, sans-serif;
 }
 
+/* Common */
+.em3 {
+    font-size: 3em;
+}
+
+.em-p {
+    font-size: 1.2em;
+}
+
+/* / Common */
+
 #header-top {
     height: 35px;
     background-color: black;
 }
+
+.logo-sony img {
+    width:100%;
+}
+
+.logo-sony  {
+    width:80px;
+}
+
 
 #search-btn {
     font-size: 20px;
@@ -25,27 +45,36 @@ body {
     position: relative;
 }
 
+#jumbotron {
+    background-image: url(../img/jumbo-bg.png);
+    background-position-x: center;
+    background-position-y: top;
+    background-size:auto;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-color: black;
+}
 
+#jumbo-logo img {
+    width: 100%;
+}
 
 /* Debug */
 
 .debug .logo-sony {
     background-color: aqua;
-    width: 80px;
-    height: 30px;
 }
 
-#jumbotron {
-    height: 650px;
+.debug #jumbotron {
     background-color: lightcoral;
 }
 
-#jumbo-title {
+.debug #jumbo-logo {
     height: 100px;
     background-color: lightgreen;
 }
 
-#jumbo-text {
+.debug #jumbo-text {
     height: 200px;
     background-color: lightgrey;
 }

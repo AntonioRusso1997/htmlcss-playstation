@@ -78,3 +78,13 @@ body {
     height: 200px;
     background-color: lightgrey;
 }
+
+.debug #game-slider {
+    background-color: lightseagreen;
+}
+
+.debug #game-card {
+    height: 100px;
+    background-color: lightsalmon;
+    border: 1px solid black;
+}

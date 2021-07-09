@@ -17,10 +17,35 @@ body {
     font-size: 20px;
 }
 
+.position-absolute {
+    position: absolute;
+}
+
+.position-relative {
+    position: relative;
+}
+
+
+
 /* Debug */
 
 .debug .logo-sony {
     background-color: aqua;
     width: 80px;
     height: 30px;
+}
+
+#jumbotron {
+    height: 650px;
+    background-color: lightcoral;
+}
+
+#jumbo-title {
+    height: 100px;
+    background-color: lightgreen;
+}
+
+#jumbo-text {
+    height: 200px;
+    background-color: lightgrey;
 }

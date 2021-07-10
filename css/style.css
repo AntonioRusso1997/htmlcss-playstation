@@ -53,7 +53,7 @@ body {
     background-image: url(../img/jumbo-bg.png);
     background-position-x: center;
     background-position-y: top;
-    background-size:auto;
+    background-size:contain;
     height: 60vh;
     background-repeat: no-repeat;
     background-color: black;
@@ -102,6 +102,28 @@ body {
 
 #ps5-card-active {
     border-bottom: 4px solid #0072CE;
+}
+
+#jumbotron-2 {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position-x: center;
+    background-position-y: top;
+    background-size:cover;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+#new-releases {
+    background-color: #1f1f1f;
+}
+
+#new-game-card {
+    cursor: pointer;
+}
+
+#new-game-card img {
+    border-radius: 25px;
 }
 
 /* Debug */
@@ -153,4 +175,10 @@ body {
     height: 330px;
     background-color: mediumseagreen;
     border: 1px solid black;
+}
+
+.debug #new-game-card {
+    background-color: aquamarine;
+    border: 1px solid white;
+    height: 300px;
 }

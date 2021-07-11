@@ -41,6 +41,11 @@ body {
     font-size: 20px;
 }
 
+#top-menu ul li i {
+    font-size: 12px;
+    color: gray;
+}
+
 .position-absolute {
     position: absolute;
 }

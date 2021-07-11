@@ -126,6 +126,14 @@ body {
     border-radius: 25px;
 }
 
+#jumbotron-3 {
+    height: 60vh;
+    background-color: #BEBCBB;
+}
+
+#jumbo-plus-img {
+    height: 60vh;
+}
 /* Debug */
 
 .debug .logo-sony {

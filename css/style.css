@@ -134,6 +134,11 @@ body {
 #jumbo-plus-img {
     height: 60vh;
 }
+
+#jumbotron-4 {
+    height: 60vh;
+    background-color: #161C3B;
+}
 /* Debug */
 
 .debug .logo-sony {

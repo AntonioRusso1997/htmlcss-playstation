@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Common */
+.em3 {
+    font-size: 3em;
+}
+
+.em-p {
+    font-size: 1.2em;
+}
+
+.gray-text {
+    color: gray;
+}
+
+/* / Common */
+
+#header-top {
+    height: 35px;
+    background-color: black;
+}
+
+.logo-sony img {
+    width:100%;
+}
+
+.logo-sony  {
+    width:80px;
+}
+
+
+#search-btn {
+    font-size: 20px;
+}
+
+#top-menu ul li i {
+    font-size: 12px;
+    color: gray;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.position-relative {
+    position: relative;
+}
+
+#jumbotron {
+    background-image: url(../img/jumbo-bg.png);
+    background-position-x: center;
+    background-position-y: top;
+    background-size:contain;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+#jumbo-logo img {
+    width: 100%;
+}
+
+#game-card img {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+    filter: opacity(70%);
+}
+
+#game-card-active img {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 0 0 5px white, 0 0 0 10px #4799dc;
+}
+
+#game-card img:hover {
+    transform: translateY(-15px);
+    filter: none;
+    cursor: pointer;    
+}
+
+#ps5-section p {
+    font-size: 24px;
+}
+
+#ps5-slider span {
+    font-size: 22px;
+}
+
+#ps5-card {
+    filter: opacity(70%);
+}
+
+#ps5-card:hover {
+    filter: opacity(100%);
+    border-bottom: 4px solid #0072CE;
+}
+
+#ps5-card-active {
+    border-bottom: 4px solid #0072CE;
+}
+
+#jumbotron-2 {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position-x: center;
+    background-position-y: top;
+    background-size:cover;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+#new-releases {
+    background-color: #1f1f1f;
+}
+
+#new-game-card {
+    cursor: pointer;
+}
+
+#new-game-card img {
+    border-radius: 25px;
+}
+
+#jumbotron-3 {
+    height: 60vh;
+    background-color: #BEBCBB;
+}
+
+#jumbo-plus-img {
+    height: 60vh;
+}
+
+#jumbotron-4 {
+    height: 60vh;
+    background-color: #161C3B;
+}
+
+#ps-logo {
+    width: 150px;
+}
+
+#sie-logo {
+    width: 200px;
+}
+
+
+
+/* Footer */
+
+footer {
+    background-color:#00439C;
+}
+
+
+/* / Footer */
+
+/* Debug */
+
+.debug .logo-sony {
+    background-color: aqua;
+}
+
+.debug #jumbotron {
+    background-color: lightcoral;
+}
+
+.debug #jumbo-logo {
+    height: 100px;
+    background-color: lightgreen;
+}
+
+.debug #jumbo-text {
+    height: 200px;
+    background-color: lightgrey;
+}
+
+.debug #game-slider {
+    background-color: lightseagreen;
+}
+
+.debug #game-card {
+    height: 200px;
+    background-color: lightsalmon;
+    border: 1px solid black;
+}
+
+.debug #ps5 {
+    height: 400px;
+    background-color: lightgreen;
+}
+
+.debug #ps5-info {
+    height: 300px;
+    background-color: lightpink;
+}
+
+.debug #ps5-image {
+    height: 1000px;
+    background-color: lightskyblue;
+}
+
+.debug #ps5-card {
+    height: 330px;
+    background-color: mediumseagreen;
+    border: 1px solid black;
+}
+
+.debug #new-game-card {
+    background-color: aquamarine;
+    border: 1px solid white;
+    height: 300px;
+}
+
+.debug #language {
+    background-color: lightpink;
+    height: 300px;
+}
+
+.debug #footer-nav {
+    background-color: lightskyblue;
+    height: 400px;
+}
+
+.debug #footer-info {
+    background-color: orange;
+    height: 300px;
+}

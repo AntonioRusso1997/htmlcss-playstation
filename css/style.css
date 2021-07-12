@@ -144,6 +144,26 @@ body {
     height: 60vh;
     background-color: #161C3B;
 }
+
+#ps-logo {
+    width: 150px;
+}
+
+#sie-logo {
+    width: 200px;
+}
+
+
+
+/* Footer */
+
+footer {
+    background-color:#00439C;
+}
+
+
+/* / Footer */
+
 /* Debug */
 
 .debug .logo-sony {
@@ -198,5 +218,20 @@ body {
 .debug #new-game-card {
     background-color: aquamarine;
     border: 1px solid white;
+    height: 300px;
+}
+
+.debug #language {
+    background-color: lightpink;
+    height: 300px;
+}
+
+.debug #footer-nav {
+    background-color: lightskyblue;
+    height: 400px;
+}
+
+.debug #footer-info {
+    background-color: orange;
     height: 300px;
 }

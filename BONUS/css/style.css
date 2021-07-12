@@ -21,6 +21,14 @@ body {
     color: gray;
 }
 
+.position-absolute {
+    position: absolute;
+}
+
+.position-relative {
+    position: relative;
+}
+
 /* / Common */
 
 #header-top {
@@ -36,7 +44,6 @@ body {
     width:80px;
 }
 
-
 #search-btn {
     font-size: 20px;
 }
@@ -46,12 +53,17 @@ body {
     color: gray;
 }
 
-.position-absolute {
-    position: absolute;
-}
-
-.position-relative {
-    position: relative;
+#sub-link-list {
+    list-style: none;
+  }
+  
+#sub-link-list li::before {
+    content: "\2022";
+    color: #0a76d3;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
 }
 
 #jumbotron {

@@ -64,25 +64,25 @@ body {
     background-color: black;
 }
 
-#jumbo-logo img {
+.jumbo-logo img {
     width: 100%;
 }
 
-#game-card img {
+.game-card img {
     width: 100%;
     overflow: hidden;
     border-radius: 20px;
     filter: opacity(70%);
 }
 
-#game-card-active img {
+.game-card-active img {
     width: 100%;
     overflow: hidden;
     border-radius: 20px;
     box-shadow: 0 0 0 5px white, 0 0 0 10px #4799dc;
 }
 
-#game-card img:hover {
+.game-card img:hover {
     transform: translateY(-15px);
     filter: none;
     cursor: pointer;    
@@ -96,16 +96,16 @@ body {
     font-size: 22px;
 }
 
-#ps5-card {
+.ps5-card {
     filter: opacity(70%);
 }
 
-#ps5-card:hover {
+.ps5-card:hover {
     filter: opacity(100%);
     border-bottom: 4px solid #0072CE;
 }
 
-#ps5-card-active {
+.ps5-card-active {
     border-bottom: 4px solid #0072CE;
 }
 
@@ -123,11 +123,11 @@ body {
     background-color: #1f1f1f;
 }
 
-#new-game-card {
+.new-game-card {
     cursor: pointer;
 }
 
-#new-game-card img {
+.new-game-card img {
     border-radius: 25px;
 }
 
@@ -136,7 +136,7 @@ body {
     background-color: #BEBCBB;
 }
 
-#jumbo-plus-img {
+.jumbo-plus-img {
     height: 60vh;
 }
 

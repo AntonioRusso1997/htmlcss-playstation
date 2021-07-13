@@ -66,6 +66,10 @@ body {
     margin-left: -1em;
 }
 
+.my_top_drop {
+    top: auto !important;
+}
+
 #jumbotron {
     background-image: url(../img/jumbo-bg.png);
     background-position-x: center;

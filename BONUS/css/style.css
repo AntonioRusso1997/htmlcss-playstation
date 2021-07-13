@@ -33,6 +33,10 @@ body {
     color: lime;
 }
 
+.m-h-150px {
+    max-height: 150px;
+}
+
 /* / Common */
 
 #header-top {
@@ -68,6 +72,12 @@ body {
     display: inline-block; 
     width: 1em;
     margin-left: -1em;
+}
+
+.my_submenu_hover:hover {
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .my_top_drop {
@@ -167,7 +177,6 @@ body {
     background-position-x: center;
     background-position-y: top;
     background-size:cover;
-    height: 70vh;
     background-repeat: no-repeat;
     background-color: black;
 }

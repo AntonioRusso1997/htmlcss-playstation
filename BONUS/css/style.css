@@ -29,6 +29,10 @@ body {
     position: relative;
 }
 
+.text-green {
+    color: lime;
+}
+
 /* / Common */
 
 #header-top {
@@ -70,7 +74,15 @@ body {
     top: auto !important;
 }
 
-#jumbotron {
+.my_hover_blue:hover {
+    color: #0D6EFD !important;
+}
+
+.my_hover_blue:focus {
+    color: #0D6EFD !important;
+}
+
+.jumbotron {
     background-image: url(../img/jumbo-bg.png);
     background-position-x: center;
     background-position-y: top;
@@ -78,6 +90,31 @@ body {
     height: 60vh;
     background-repeat: no-repeat;
     background-color: black;
+}
+
+.ratchet {
+    background-image: url(../img/ratchet-and-clank-rift-apart-hero-banner-desktop-01-en-27jan21.jfif);
+    background-size: cover;
+}
+
+.fifa {
+    background-image: url(../img/fifa-22-featured-image.png.adapt.crop191x100.1200w.png);
+    background-size: cover;    
+}
+
+.g-o-t {
+    background-image: url(../img/ghost-of-tsushima-directors-cut-hero-banner-desktop-01-en-15jun21.jfif);
+    background-size: cover;    
+}
+
+.d-stranding {
+    background-image: url(../img/death-stranding-directors-cut-hero-banner-desktop-01-en-05may21.jfif);
+    background-size: cover;    
+}
+
+.boolean-careers {
+    background-image: url(../img/boolean-banner.png);
+    background-size: cover;    
 }
 
 .jumbo-logo img {
